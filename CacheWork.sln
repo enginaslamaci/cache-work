@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InMemory", "InMemory", "{68643E36-172C-4A2D-A5DB-E52507153461}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Redis", "Redis", "{26331903-4E33-4E94-9476-5380622823C5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Redis.API", "Redis\Redis.API\Redis.API.csproj", "{6906D758-041D-49EC-84FE-880F59E0A2A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InMemory.API", "InMemory\InMemory.API\InMemory.API.csproj", "{00175BF0-3063-43B5-A272-F24F3AB7F265}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6906D758-041D-49EC-84FE-880F59E0A2A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6906D758-041D-49EC-84FE-880F59E0A2A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6906D758-041D-49EC-84FE-880F59E0A2A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6906D758-041D-49EC-84FE-880F59E0A2A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00175BF0-3063-43B5-A272-F24F3AB7F265}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00175BF0-3063-43B5-A272-F24F3AB7F265}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00175BF0-3063-43B5-A272-F24F3AB7F265}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00175BF0-3063-43B5-A272-F24F3AB7F265}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6906D758-041D-49EC-84FE-880F59E0A2A8} = {26331903-4E33-4E94-9476-5380622823C5}
+		{00175BF0-3063-43B5-A272-F24F3AB7F265} = {68643E36-172C-4A2D-A5DB-E52507153461}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3542A9BE-2362-4CD1-B9CD-A844E01578F4}
+	EndGlobalSection
+EndGlobal
